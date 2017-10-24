@@ -86,3 +86,49 @@ Copy to Chromebook, deactivate write protection.
 ```
 $ flashrom -p internal -w coreboot.rom
 ```
+
+# Board status
+
+- Upload to board status repository
+
+# Longer version
+
+# Developer mode and write protection
+
+## Developer mode
+
+1.  Key combination
+2.  Ctrl + d
+3.  Data is deleted
+
+Now type `shell` in Crosh Shell to get GNU Bash.
+
+## Write protection
+
+1.  Open device
+2.  Remove screw
+
+# Components
+
+1. Vboot2
+2. [ARM Trusted Firmware](https://github.com/ARM-software/arm-trusted-firmware)
+
+# ARM Trusted Firmware
+
+> ARM Trusted Firmware provides a reference implementation of secure
+> world software for ARMv8-A, including a Secure Monitor executing at
+> Exception Level 3 (EL3). It implements various ARM interface
+> standards, such as:
+>
+> *   The Power State Coordination Interface (PSCI)
+> *   Trusted Board Boot Requirements (TBBR, ARM DEN0006C-1)
+> *   SMC Calling Convention
+> *   System Control and Management Interface
+>
+> As far as possible the code is designed for reuse or porting to other
+> ARMv8-A model and hardware platforms.
+>
+> ARM will continue development in collaboration with interested parties
+> to provide a full reference implementation of Secure Monitor code and
+> ARM standards to the benefit of all developers working with ARMv8-A
+> TrustZone technology.
