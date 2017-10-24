@@ -62,3 +62,27 @@ Capacity                        4.670 mAh
 - hardware video decoding
 - Wi-Fi and Bluetooth
 - GPU support
+
+# Mediatek device and coreboot
+
+- Google Oak reference design
+- Acer Chromebook R 13 is variant Google Elm
+
+# TLDR
+
+```
+$ make crossgcc-arm crossgcc-aarch64 CPUS=160
+$ make menuconfig
+```
+
+Select Google Elm, Chrome OS, and Depthcharge
+
+```
+$ make
+```
+
+Copy to Chromebook, deactivate write protection.
+
+```
+$ flashrom -p internal -w coreboot.rom
+```
