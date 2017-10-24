@@ -120,6 +120,8 @@ Now type `shell` in Crosh Shell to get GNU Bash.
 1.  Open device
 2.  Remove screw
 
+# Look at shipped image
+
 # Components
 
 1. Vboot2
@@ -144,3 +146,26 @@ Now type `shell` in Crosh Shell to get GNU Bash.
 > to provide a full reference implementation of Secure Monitor code and
 > ARM standards to the benefit of all developers working with ARMv8-A
 > TrustZone technology.
+
+# Operating system
+
+1.  hrome OS
+2.  Arch Linux
+3.  Debian GNU/Linux
+
+# Chrome OS
+
+- Ships Linux 3.18
+- Boot in 10 seconds with shipped firmware
+
+# Depthcharge
+
+- Configure default boot
+
+# FMAP regions and fallback
+
+- Goal: Similar setup to shipped image with fallback
+
+# Questions?
+
+% Notes: Thank you to Philipp, break might be earlier or later
