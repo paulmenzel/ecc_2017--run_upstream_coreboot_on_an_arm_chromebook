@@ -27,7 +27,7 @@ See thread [*Current, BLOB free laptop available Europe?*](https://mail.coreboot
 BLOBs required for
 
 - hardware video decoding
-- Wi-Fi and bluetooth
+- Wi-Fi and Bluetooth
 - GPU support
 
 # Acer Chromebook R 13
@@ -51,3 +51,14 @@ Weight                          1,49 kg
 Battery time                    up to 12 hours
 Capacity                        4.670 mAh
 -----------------------------	----------------------------
+
+# BLOB status
+
+- PCM firmware in ARM Trusted Firmware
+- Maybe USB C device
+
+## Linux support
+
+- hardware video decoding
+- Wi-Fi and Bluetooth
+- GPU support
