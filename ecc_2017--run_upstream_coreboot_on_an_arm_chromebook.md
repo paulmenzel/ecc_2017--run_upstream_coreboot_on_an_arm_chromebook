@@ -231,7 +231,7 @@ RO section contains CBFS with required pieces for system recovery.
 
 - BSD-3-Clause
 
-## Firmware System Power Manager (SPM) in Mediatek MT8173
+## Firmware System Power Manager (SPM) in MT8173
 
 See `plat/mediatek/mt8173/drivers/spm/spm_hotplug.c`.
 
