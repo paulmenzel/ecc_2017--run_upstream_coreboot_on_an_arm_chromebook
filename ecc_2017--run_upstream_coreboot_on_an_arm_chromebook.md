@@ -250,6 +250,15 @@ static const unsigned int hotplug_binary[] = {
 […]
 ```
 
+## spm\_mcdi.c
+
+```
+static const unsigned int mcdi_binary[] = {
+        0x1a10001f, 0x10006b04, 0x1890001f, 0x10006b6c, 0x1a40001f, 0x10006210,
+        0x18d0001f, 0x10006210, 0x81002001, 0xd82001c4, 0x17c07c1f, 0xa0900402,
+[…]
+```
+
 ## Operating system
 
 1.  Chrome OS
