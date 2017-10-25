@@ -2,27 +2,27 @@
 % Paul Menzel
 % October 26, 2017
 
-# Who am I?
+## Who am I?
 
 - (Economic) Mathematician by studies at [TU Berlin](https://www.tu-berlin.de/)
 - Free Software enthusiast
 - Active in [coreboot](https://www.coreboot.org/) since 2005 (still LinuxBIOS back then)
 - System architect at [Max Planck Institute for Molecular Genetics](https://www.molgen.mpg.de/)
 
-# Google Chromebooks
+## Google Chromebooks
 
-## x86
+### x86
 
-## ARM
+### ARM
 
-# Samsung Chromebook Plus (RK3399)
+## Samsung Chromebook Plus (RK3399)
 
 See thread [*Current, BLOB free laptop available Europe?*](https://mail.coreboot.org/pipermail/coreboot/2017-May/084389.html) on coreboot mailing list
 
 - Device with Rockchip RK3399, but only available in the USA
 - No BLOBs in firmware
 
-## Linux support
+### Linux support
 
 BLOBs required for
 
@@ -30,7 +30,7 @@ BLOBs required for
 - Wi-Fi and Bluetooth
 - GPU support
 
-# Acer Chromebook R 13
+## Acer Chromebook R 13
 
 - On October 24th, 2017, 384 € at [notebooksbilliger.de ](https://www.notebooksbilliger.de/acer+chromebook+r13+cb5+312t+k0yk)
 
@@ -52,23 +52,23 @@ Battery time                    up to 12 hours
 Capacity                        4.670 mAh
 -----------------------------	----------------------------
 
-# BLOB status
+## BLOB status
 
 - PCM firmware in ARM Trusted Firmware
 - Maybe USB C device
 
-## Linux support
+### Linux support
 
 - hardware video decoding
 - Wi-Fi and Bluetooth
 - GPU support
 
-# Mediatek device and coreboot
+## Mediatek device and coreboot
 
 - Google Oak reference design
 - Acer Chromebook R 13 is variant Google Elm
 
-# TLDR
+## TLDR
 
 ```
 $ make crossgcc-arm crossgcc-aarch64 CPUS=160
@@ -87,7 +87,7 @@ Copy to Chromebook, deactivate write protection.
 $ flashrom -p internal -w coreboot.rom
 ```
 
-# Libettereboot
+## Libettereboot
 
 - New build system for Libreboot written by Paul K.
 
@@ -99,15 +99,15 @@ $ # gelöschte Firmware in arm-trusted-firmware wieder einbinden (git revert …
 $ ./libreboot cook coreboot depthcharge elm
 ```
 
-# Board status
+## Board status
 
 - Upload to board status repository
 
 # Longer version
 
-# Developer mode and write protection
+## Developer mode and write protection
 
-## Developer mode
+### Developer mode
 
 1.  Key combination
 2.  Ctrl + d
@@ -115,19 +115,19 @@ $ ./libreboot cook coreboot depthcharge elm
 
 Now type `shell` in Crosh Shell to get GNU Bash.
 
-## Write protection
+### Write protection
 
 1.  Open device
 2.  Remove screw
 
-# Look at shipped image
+## Look at shipped image
 
-# Components
+## Components
 
 1. Vboot2
 2. [ARM Trusted Firmware](https://github.com/ARM-software/arm-trusted-firmware)
 
-# ARM Trusted Firmware
+## ARM Trusted Firmware
 
 > ARM Trusted Firmware provides a reference implementation of secure
 > world software for ARMv8-A, including a Secure Monitor executing at
@@ -151,26 +151,28 @@ Now type `shell` in Crosh Shell to get GNU Bash.
 
 - BSD-3-Clause
 
-# Operating system
+## Operating system
 
 1.  Chrome OS
 2.  Arch Linux
 3.  Debian GNU/Linux
 
-# Chrome OS
+## Chrome OS
 
 - Ships Linux 3.18
 - Boot in 10 seconds with shipped firmware
 
-# Depthcharge
+## Depthcharge
 
 - Configure default boot
 
-# FMAP regions and fallback
+## FMAP regions and fallback
 
 - Goal: Similar setup to shipped image with fallback
 
 # Questions?
+
+## My notes
 
 <div class="notes">
 *   Thank Philipp and organizers
