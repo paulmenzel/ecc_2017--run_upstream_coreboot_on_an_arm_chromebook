@@ -149,7 +149,7 @@ Now type `shell` in Crosh Shell to get GNU Bash.
 
 # Operating system
 
-1.  hrome OS
+1.  Chrome OS
 2.  Arch Linux
 3.  Debian GNU/Linux
 
