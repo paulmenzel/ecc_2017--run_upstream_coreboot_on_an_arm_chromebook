@@ -191,8 +191,21 @@ Now type `shell` in Crosh Shell to get GNU Bash.
 
 ## Components
 
-1. Vboot2
+1. Chrome OS verified boot: Vboot
 2. [ARM Trusted Firmware](https://github.com/ARM-software/arm-trusted-firmware)
+
+## Vboot
+
+1.  Very good documentation in `Documentation/Intel/vboot.html`
+
+Four sections needed for Vboot.
+
+1.  Read-only section
+1.  Google Binary Blob (GBB) area
+1.  Read/write section A
+1.  Read/write section B
+
+RO section contains CBFS with required pieces for system recovery.
 
 ## ARM Trusted Firmware
 
