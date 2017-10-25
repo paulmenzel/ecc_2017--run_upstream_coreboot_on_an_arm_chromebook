@@ -54,6 +54,12 @@ Capacity                        4.670 mAh
 
 ## BLOB status
 
+### No BLOBs
+
+-   Embedded Controller
+
+### BLOBs
+
 - PCM firmware in ARM Trusted Firmware
 - Maybe USB C device
 - Maybe ANX7688: PD + HDMI→DP converter
