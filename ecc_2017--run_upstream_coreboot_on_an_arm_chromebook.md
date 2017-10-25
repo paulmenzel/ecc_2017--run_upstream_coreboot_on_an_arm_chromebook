@@ -56,6 +56,12 @@ Capacity                        4.670 mAh
 
 - PCM firmware in ARM Trusted Firmware
 - Maybe USB C device
+- Maybe ANX7688: PD + HDMI→DP converter
+
+    > It contains a firmware that we update from the AP-FW, at boot time, which
+    > is the only reason to have a driver for it in depthcharge.
+
+    See commit 9859ac55 (anx7688: Add support for ANX7688) in Depthcharge.
 
 ### Linux support
 
