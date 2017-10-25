@@ -78,7 +78,7 @@ Capacity                        4.670 mAh
 ## Mediatek device and coreboot
 
 - Google Oak reference design
-- Acer Chromebook R 13 is variant Google Elm
+- Acer Chromebook R 13 is Google Elm variant of Google Oak
 
 ## TLDR
 
