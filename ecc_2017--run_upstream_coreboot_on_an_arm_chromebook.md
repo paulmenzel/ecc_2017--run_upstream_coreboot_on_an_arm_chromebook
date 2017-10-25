@@ -147,6 +147,10 @@ Now type `shell` in Crosh Shell to get GNU Bash.
 > ARM standards to the benefit of all developers working with ARMv8-A
 > TrustZone technology.
 
+## License
+
+- BSD-3-Clause
+
 # Operating system
 
 1.  Chrome OS
