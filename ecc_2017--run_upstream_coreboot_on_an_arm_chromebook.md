@@ -9,11 +9,53 @@
 - Active in [coreboot](https://www.coreboot.org/) since 2005 (still LinuxBIOS back then)
 - System architect at [Max Planck Institute for Molecular Genetics](https://www.molgen.mpg.de/)
 
-## Google Chromebooks
+# Google Chromebooks
 
-### x86
+## Architectures
 
-### ARM
+1.  x86
+1.  ARM
+1.  MIPS
+
+## x86
+
+1.  Currently only Intel based devices
+1.  BLOB: Intel FSP (Firmware Support Package) (formerly MRC)
+1.  BLOB on co-processor Intel Management Engine
+
+## x86 – Graphics driver in Linux
+
+1.  BLOBs required by recent Intel graphics devices
+
+    ```
+    $ ls /lib/firmware/i915/
+    bxt_dmc_ver1_07.bin        skl_dmc_ver1_23.bin
+    bxt_dmc_ver1.bin           skl_dmc_ver1_26.bin
+    bxt_guc_ver8_7.bin         skl_dmc_ver1.bin
+    bxt_huc_ver01_07_1398.bin  skl_guc_ver1.bin
+    kbl_dmc_ver1_01.bin        skl_guc_ver4.bin
+    kbl_dmc_ver1.bin           skl_guc_ver6_1.bin
+    kbl_guc_ver9_14.bin        skl_guc_ver6.bin
+    kbl_huc_ver02_00_1810.bin  skl_huc_ver01_07_1398.bin
+    ```
+
+## x86 – Ecosystem
+
+1.  More payloads in coreboot
+1.  Good eco system
+    1.  https://mrchromebox.tech/ – custom images
+    1.  https://johnlewis.ie/ – custom images
+    1.  [GalliumOS](https://galliumos.org/) – GNU/Linux distribution for x86 Chrome OS devices
+
+## ARM
+
+1.  Small bootblock fused in system
+1.  No legacy, easier to set up
+1.  No co-processor
+1.  U-Boot, Barebox as free alternatives
+1.  Bad user space situation with BLOBs for graphics drivers
+1.  Few payloads
+1.  No ecosystem
 
 ## Samsung Chromebook Plus (RK3399)
 
