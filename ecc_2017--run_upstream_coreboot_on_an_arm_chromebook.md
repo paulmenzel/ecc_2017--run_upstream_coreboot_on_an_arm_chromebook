@@ -34,6 +34,7 @@
 1.  Currently only Intel based devices
 1.  BLOB: Intel FSP (Firmware Support Package) (formerly MRC)
 1.  BLOB on co-processor Intel Management Engine
+1.  BLOB: Microcode updates
 
 ## x86 – Graphics driver in Linux
 
