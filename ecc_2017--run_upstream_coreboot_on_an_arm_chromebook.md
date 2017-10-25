@@ -231,9 +231,24 @@ RO section contains CBFS with required pieces for system recovery.
 
 - BSD-3-Clause
 
-## Firmware
+## Firmware System Power Manager (SPM) in Mediatek MT8173
 
-`plat/mediatek/mt8173/drivers/spm/spm_hotplug.c`
+See `plat/mediatek/mt8173/drivers/spm/spm_hotplug.c`.
+
+> System Power Manager (SPM) is a hardware module, which controls cpu or
+> system power for different power scenarios using different firmware.
+> This driver controls the cpu power in cpu hotplug flow.
+
+```
+[…]
+/**********************************************************
+ * PCM sequence for CPU hotplug
+ **********************************************************/
+static const unsigned int hotplug_binary[] = {
+        0x1900001f, 0x1020020c, 0x1950001f, 0x1020020c, 0xa9400005, 0x00000001,
+        0xe1000005, 0x1910001f, 0x10006720, 0x814c9001, 0xd82000e5, 0x17c07c1f,
+[…]
+```
 
 ## Operating system
 
