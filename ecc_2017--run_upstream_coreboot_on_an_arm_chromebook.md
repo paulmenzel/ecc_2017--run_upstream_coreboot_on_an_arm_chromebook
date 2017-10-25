@@ -168,4 +168,8 @@ Now type `shell` in Crosh Shell to get GNU Bash.
 
 # Questions?
 
-% Notes: Thank you to Philipp, break might be earlier or later
+<div class="notes">
+*   Thank Philipp and organizers
+*   Break might be earlier or later
+*   First talk after keynote, honored.
+</div>
