@@ -110,7 +110,7 @@ Capacity                        4.670 mAh
 
 ### No BLOBs
 
--   Embedded Controller
+-   Chrome EC for Embedded Controller as on all Chrome OS devices
 
 ### BLOBs
 
@@ -123,7 +123,7 @@ Capacity                        4.670 mAh
 
     See commit 9859ac55 (anx7688: Add support for ANX7688) in Depthcharge.
 
-### Linux support
+## BLOB status – Linux support
 
 - hardware video decoding
 - Wi-Fi and Bluetooth
