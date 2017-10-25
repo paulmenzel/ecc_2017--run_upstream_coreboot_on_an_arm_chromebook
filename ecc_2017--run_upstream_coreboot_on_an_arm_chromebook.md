@@ -2,11 +2,23 @@
 % Paul Menzel
 % October 26, 2017
 
+## Thanks
+
+<div class="notes">
+*   Thank Philipp and organizers
+*   Break might be earlier or later
+*   First talk after keynote, honored.
+</div>
+
 ## Who am I?
 
 - (Economic) Mathematician by studies at [TU Berlin](https://www.tu-berlin.de/)
 - Free Software enthusiast
 - Active in [coreboot](https://www.coreboot.org/) since 2005 (still LinuxBIOS back then)
+
+![Logo of Max Planck Institute for Molecular Genetics](images/MPIMG_helix_rgb.png){ height=25% }\
+
+
 - System architect at [Max Planck Institute for Molecular Genetics](https://www.molgen.mpg.de/)
 
 # Google Chromebooks
@@ -225,11 +237,3 @@ Now type `shell` in Crosh Shell to get GNU Bash.
 - Goal: Similar setup to shipped image with fallback
 
 # Questions?
-
-## My notes
-
-<div class="notes">
-*   Thank Philipp and organizers
-*   Break might be earlier or later
-*   First talk after keynote, honored.
-</div>
