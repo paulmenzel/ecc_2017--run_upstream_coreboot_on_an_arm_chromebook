@@ -86,8 +86,6 @@ BLOBs required for
 
 ## Acer Chromebook R 13
 
-- On October 24th, 2017, 384 € at [notebooksbilliger.de ](https://www.notebooksbilliger.de/acer+chromebook+r13+cb5+312t+k0yk)
-
 ## Specifications
 
 -----------------------------	----------------------------
@@ -105,6 +103,8 @@ Weight                          1,49 kg
 Battery time                    up to 12 hours
 Capacity                        4.670 mAh
 -----------------------------	----------------------------
+
+- On October 24th, 2017, 384 € at [notebooksbilliger.de ](https://www.notebooksbilliger.de/acer+chromebook+r13+cb5+312t+k0yk)
 
 ## BLOB status
 
