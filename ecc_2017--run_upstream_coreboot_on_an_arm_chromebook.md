@@ -231,6 +231,10 @@ RO section contains CBFS with required pieces for system recovery.
 
 - BSD-3-Clause
 
+## Firmware
+
+`plat/mediatek/mt8173/drivers/spm/spm_hotplug.c`
+
 ## Operating system
 
 1.  Chrome OS
