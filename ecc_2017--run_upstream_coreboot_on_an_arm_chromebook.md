@@ -230,6 +230,10 @@ Now type `shell` in Crosh Shell to get GNU Bash.
 1.  Open device
 2.  Remove screw
 
+## Opened device
+
+![Opened Acer Chromebook R 13](images/acer_chromebook_r_13_open.jpg)
+
 ## Look at shipped image
 
 ## Components
