@@ -169,7 +169,7 @@ $ make crossgcc-arm crossgcc-aarch64 CPUS=160
 $ make menuconfig
 ```
 
-Select Google Elm, Chrome OS, and Depthcharge
+Select *Mainboard → Google Elm*, *Chipset → ChromeOS → Build for ChromeOS*, and *Payload → Depthcharge*
 
 ```
 $ make
