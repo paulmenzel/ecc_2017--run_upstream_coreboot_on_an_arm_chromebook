@@ -183,7 +183,7 @@ $ flashrom -p internal -w coreboot.rom
 
 ## Libettereboot
 
-New build system for Libreboot written by Paul K.
+New build system for Libreboot written by Paul K. with improvement patches.
 
 ```
 $ git clone https://git.code.paulk.fr/libettereboot.git
