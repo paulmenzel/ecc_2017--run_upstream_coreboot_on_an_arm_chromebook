@@ -309,6 +309,18 @@ RO section contains CBFS with required pieces for system recovery.
 
 - BSD-3-Clause
 
+## Firmware in ARM TF on MT8173
+
+Libettereboot lists the BLOBs below.
+
+```
+$ more projects/arm-trusted-firmware/configs/blobs
+plat/mediatek/mt8173/drivers/spm/spm_hotplug.c
+plat/mediatek/mt8173/drivers/spm/spm_mcdi.c
+plat/mediatek/mt8173/drivers/spm/spm_suspend.c
+plat/rockchip/rk3368/drivers/ddr/rk3368_ddr_reg_resume_V1.05.bin
+```
+
 ## Firmware System Power Manager (SPM) in MT8173
 
 See `plat/mediatek/mt8173/drivers/spm/spm_hotplug.c`.
