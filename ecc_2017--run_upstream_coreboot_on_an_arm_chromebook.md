@@ -2,7 +2,7 @@
 % Paul Menzel
 % October 26, 2017
 
-## Thanks
+# Thanks
 
 <div class="notes">
 *   Thank Philipp and organizers
