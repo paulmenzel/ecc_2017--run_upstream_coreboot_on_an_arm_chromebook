@@ -92,7 +92,7 @@ BLOBs required for
 
 - hardware video decoding
 - Wi-Fi and Bluetooth
-- GPU support
+- [GPU support](http://opensource.rock-chips.com/wiki_Graphics)
 
 ## Acer Chromebook R 13
 
