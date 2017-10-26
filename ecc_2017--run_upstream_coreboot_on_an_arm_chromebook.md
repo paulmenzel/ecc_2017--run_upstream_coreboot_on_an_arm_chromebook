@@ -203,7 +203,7 @@ $ ./libreboot cook coreboot depthcharge elm
 
 ## Board status
 
-- TODO: Upload to board status repository
+- to-do: Upload to board status repository
 - `git clone https://review.coreboot.org/board-status`
 - Currently empty
 
@@ -371,7 +371,7 @@ static const unsigned int suspend_binary_ca7[] = {
 […]
 ```
 
-## Operating system
+## Operating systems
 
 1.  Chrome OS
 2.  Arch Linux
@@ -384,7 +384,7 @@ static const unsigned int suspend_binary_ca7[] = {
 
 ## Depthcharge
 
-- Configure default boot
+- to-do: Configure default boot
 
 ## FMAP regions and fallback
 
