@@ -93,6 +93,7 @@ BLOBs required for
 - hardware video decoding
 - Wi-Fi and Bluetooth
 - [GPU support](http://opensource.rock-chips.com/wiki_Graphics)
+- Webcam
 
 # Acer Chromebook R 13
 
@@ -138,6 +139,7 @@ Capacity                        4.670 mAh
 - hardware video decoding
 - Wi-Fi and Bluetooth
 - GPU support (PowerVR GX6250)
+- Webcam
 
 ## Google Oak
 
