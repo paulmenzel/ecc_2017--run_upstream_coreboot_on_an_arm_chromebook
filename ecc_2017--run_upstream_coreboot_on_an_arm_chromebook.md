@@ -1,5 +1,5 @@
 % Run upstream coreboot on an ARM Chromebook
-% Paul Menzel
+% Paul Menzel (Max Planck Institute for Molecular Genetics)
 % October 26, 2017
 
 # Thanks
