@@ -139,9 +139,27 @@ Capacity                        4.670 mAh
 - Wi-Fi and Bluetooth
 - GPU support
 
-## Mediatek device and coreboot
+## Google Oak
 
 - Google Oak reference design
+
+```
+src/mainboard/google/oak/$ ls
+boardid.c       gpio.h        romstage.c
+board_info.txt  Kconfig       sdram_configs.c
+bootblock.c     Kconfig.name  sdram_inf
+chromeos.c      mainboard.c   tpm_tis.c
+chromeos.fmd    Makefile.inc
+devicetree.cb   memlayout.ld
+src/mainboard/google/oak/$ git grep config Kconfig.name
+Kconfig.name:config BOARD_GOOGLE_OAK
+Kconfig.name:config BOARD_GOOGLE_ELM
+Kconfig.name:config BOARD_GOOGLE_HANA
+Kconfig.name:config BOARD_GOOGLE_ROWAN
+```
+
+## Google Elm
+
 - Acer Chromebook R 13 is Google Elm variant of Google Oak
 
 ## TLDR
