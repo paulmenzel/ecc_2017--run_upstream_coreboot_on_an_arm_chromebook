@@ -76,6 +76,7 @@ See thread [*Current, BLOB free laptop available Europe?*](https://mail.coreboot
 
 - Device with Rockchip RK3399, but only available in the USA
 - No BLOBs in firmware
+- [Mali T860MP4 GPU](https://archlinuxarm.org/platforms/armv8/rockchip/samsung-chromebook-plus)
 
 ### Linux support
 
