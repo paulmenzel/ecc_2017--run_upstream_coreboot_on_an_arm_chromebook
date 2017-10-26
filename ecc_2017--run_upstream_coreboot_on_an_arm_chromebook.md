@@ -183,13 +183,21 @@ $ flashrom -p internal -w coreboot.rom
 
 ## Libettereboot
 
-- New build system for Libreboot written by Paul K.
+New build system for Libreboot written by Paul K.
 
 ```
 $ git clone https://git.code.paulk.fr/libettereboot.git
 $ cd libettereboot
-$ for project in coreboot depthcharge vboot arm-trusted-firmware ; do ./libreboot download $project ; done ;
-$ # gelöschte Firmware in arm-trusted-firmware wieder einbinden (git revert …)
+$ for project in coreboot \
+    depthcharge \
+    vboot \
+    arm-trusted-firmware
+do
+    ./libreboot download "$project"
+done
+$ cd sources/arm-trusted-firmware
+$ git revert HEAD
+$ cd ..
 $ ./libreboot cook coreboot depthcharge elm
 ```
 
