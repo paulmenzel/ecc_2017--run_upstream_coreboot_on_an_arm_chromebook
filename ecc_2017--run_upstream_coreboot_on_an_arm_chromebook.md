@@ -36,23 +36,23 @@
 1.  BLOB on co-processor Intel Management Engine
 1.  BLOB: Microcode updates
 
-## x86 – Graphics driver in Linux
+## x86/Intel – Graphics driver in Linux
 
-1.  BLOBs required by recent Intel graphics devices
+BLOBs required by recent Intel graphics devices
 
-    ```
-    $ ls /lib/firmware/i915/
-    bxt_dmc_ver1_07.bin        skl_dmc_ver1_23.bin
-    bxt_dmc_ver1.bin           skl_dmc_ver1_26.bin
-    bxt_guc_ver8_7.bin         skl_dmc_ver1.bin
-    bxt_huc_ver01_07_1398.bin  skl_guc_ver1.bin
-    kbl_dmc_ver1_01.bin        skl_guc_ver4.bin
-    kbl_dmc_ver1.bin           skl_guc_ver6_1.bin
-    kbl_guc_ver9_14.bin        skl_guc_ver6.bin
-    kbl_huc_ver02_00_1810.bin  skl_huc_ver01_07_1398.bin
-    ```
+```
+$ ls /lib/firmware/i915/
+bxt_dmc_ver1_07.bin        skl_dmc_ver1_23.bin
+bxt_dmc_ver1.bin           skl_dmc_ver1_26.bin
+bxt_guc_ver8_7.bin         skl_dmc_ver1.bin
+bxt_huc_ver01_07_1398.bin  skl_guc_ver1.bin
+kbl_dmc_ver1_01.bin        skl_guc_ver4.bin
+kbl_dmc_ver1.bin           skl_guc_ver6_1.bin
+kbl_guc_ver9_14.bin        skl_guc_ver6.bin
+kbl_huc_ver02_00_1810.bin  skl_huc_ver01_07_1398.bin
+```
 
-## x86 – Ecosystem
+## x86/Intel – Ecosystem
 
 1.  More payloads in coreboot
 1.  Good eco system
