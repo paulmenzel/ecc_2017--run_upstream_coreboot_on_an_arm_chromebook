@@ -137,7 +137,7 @@ Capacity                        4.670 mAh
 
 - hardware video decoding
 - Wi-Fi and Bluetooth
-- GPU support
+- GPU support (PowerVR GX6250)
 
 ## Google Oak
 
