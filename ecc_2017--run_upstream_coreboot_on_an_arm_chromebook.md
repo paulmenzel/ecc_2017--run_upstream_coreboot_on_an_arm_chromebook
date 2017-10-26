@@ -94,7 +94,7 @@ BLOBs required for
 - Wi-Fi and Bluetooth
 - [GPU support](http://opensource.rock-chips.com/wiki_Graphics)
 
-## Acer Chromebook R 13
+# Acer Chromebook R 13
 
 ## Specifications
 
