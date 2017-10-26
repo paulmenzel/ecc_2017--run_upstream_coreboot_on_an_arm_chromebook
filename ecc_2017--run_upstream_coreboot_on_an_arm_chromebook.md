@@ -203,7 +203,8 @@ $ ./libreboot cook coreboot depthcharge elm
 
 ## Board status
 
-- Upload to board status repository
+- TODO: Upload to board status repository
+- `git clone https://review.coreboot.org/board-status`
 
 # Longer version
 
