@@ -62,7 +62,15 @@ kbl_huc_ver02_00_1810.bin  skl_huc_ver01_07_1398.bin
 
 ## ARM
 
-1.  Small bootblock fused in system
+1.  [Small bootblock fused in system](https://github.com/ARM-software/arm-trusted-firmware/wiki/ARM-Trusted-Firmware-Image-Terminology#ap-boot-rom-ap_bl1)
+
+    > AP Boot ROM: AP\_BL1
+    >
+    > Typically, this is the first code to execute on the AP and cannot be
+    > modified. Its primary purpose is to perform the minimum intialization
+    > necessary to load and authenticate an updateable AP firmware image into an
+    > executable RAM location, then hand-off control to that image.
+
 1.  No legacy, easier to set up
 1.  No co-processor
 1.  U-Boot, Barebox as free alternatives
