@@ -236,6 +236,31 @@ Now type `shell` in Crosh Shell to get GNU Bash.
 
 ## Look at shipped image
 
+```
+$ cbfstool cb.rom print
+cb.rom: 1024 kB, bootblocksize 4, romsize 1048576, …
+alignment: 64 bytes, architecture: unknown
+
+Name               Offset     Type         Size
+cbfs master header 0x20000    cbfs header  32
+fallback/romstage  0x20080    stage        31797
+fallback/ramstage  0x27d00    stage        39764
+config             0x318c0    raw          382
+revision           0x31a80    raw          560
+fallback/bl31      0x31d00    stage        14947
+fallback/verstage  0x357c0    stage        33894
+locale_it.bin      0x3dc80    raw          9384 (…
+[…]
+vbgfx.bin          0x457c0    raw          21564 (…
+[…]
+locales            0x9f400    raw          141 (166 …
+[…]
+fallback/payload   0xc6a40    payload      86965
+u-boot.dtb         0xdbe40    mrc_cache    2964
+(empty)            0xdca40    null         144728
+header pointer     0xfffc0    cbfs header  4
+```
+
 ## Components
 
 1. Chrome OS verified boot: Vboot
