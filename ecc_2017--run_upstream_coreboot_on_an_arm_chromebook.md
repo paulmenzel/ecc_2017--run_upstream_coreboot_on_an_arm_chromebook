@@ -251,6 +251,12 @@ fallback/bl31      0x31d00    stage        14947
 fallback/verstage  0x357c0    stage        33894
 locale_it.bin      0x3dc80    raw          9384 (…
 […]
+```
+
+## Look at shipped image cont.
+
+```
+[…]
 vbgfx.bin          0x457c0    raw          21564 (…
 […]
 locales            0x9f400    raw          141 (166 …
