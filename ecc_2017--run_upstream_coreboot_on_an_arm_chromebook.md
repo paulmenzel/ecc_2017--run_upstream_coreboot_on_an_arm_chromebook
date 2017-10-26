@@ -104,7 +104,7 @@ Cache                           1 MB
 RAM                             4 GB LPDDR3, PC3L-12800 (1600MHz)
 Format                          2in1 Convertible 	 
 Display size                    33 cm (13,3")
-Display                         Acer CineCrystal™ Multi-Touch Full-HD IPS Display with LED backlight
+Display                         Multi-Touch Full-HD IPS Display w/ LED backlight
 Resolution                      1920 x 1080 Pixel (Full HD)
 IGD:                            PowerVR GX6250
 eMMC                            32 GB
