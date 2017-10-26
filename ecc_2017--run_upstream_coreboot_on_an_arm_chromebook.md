@@ -318,7 +318,7 @@ $ more projects/arm-trusted-firmware/configs/blobs
 plat/mediatek/mt8173/drivers/spm/spm_hotplug.c
 plat/mediatek/mt8173/drivers/spm/spm_mcdi.c
 plat/mediatek/mt8173/drivers/spm/spm_suspend.c
-plat/rockchip/rk3368/drivers/ddr/rk3368_ddr_reg_resume_V1.05.bin
+plat/rockchip/rk3368/drivers/ddr/rk3368_ddr_reg_…
 ```
 
 ## Firmware System Power Manager (SPM) in MT8173
