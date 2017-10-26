@@ -343,9 +343,23 @@ static const unsigned int hotplug_binary[] = {
 ## spm\_mcdi.c
 
 ```
+[…]
 static const unsigned int mcdi_binary[] = {
         0x1a10001f, 0x10006b04, 0x1890001f, 0x10006b6c, 0x1a40001f, 0x10006210,
         0x18d0001f, 0x10006210, 0x81002001, 0xd82001c4, 0x17c07c1f, 0xa0900402,
+[…]
+```
+
+## spm\_suspend.c
+
+```
+[…]
+/**********************************************************
+ * PCM sequence for cpu suspend
+ **********************************************************/
+static const unsigned int suspend_binary_ca7[] = {
+        0x81f58407, 0x81f68407, 0x803a0400, 0x803a8400, 0x1b80001f, 0x20000000,
+        0x80300400, 0x80318400, 0x80328400, 0xa1d28407, 0x81f20407, 0x81009801,
 […]
 ```
 
