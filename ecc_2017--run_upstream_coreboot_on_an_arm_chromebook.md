@@ -205,6 +205,13 @@ $ ./libreboot cook coreboot depthcharge elm
 
 - TODO: Upload to board status repository
 - `git clone https://review.coreboot.org/board-status`
+- Currently empty
+
+    ```
+    $ ls google/
+    butterfly  link     parrot  slippy
+    falco      panther  peppy   stout
+    ```
 
 # Longer version
 
