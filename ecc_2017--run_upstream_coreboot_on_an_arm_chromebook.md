@@ -342,12 +342,11 @@ static const unsigned int hotplug_binary[] = {
 
 ## spm\_mcdi.c
 
+> System Power Manager (SPM) is a hardware module, which controls cpu or
+> system power for different power scenarios using different firmware.
+> This driver controls the cpu power in cpu idle power saving state.
+
 ```
-/*
- * System Power Manager (SPM) is a hardware module, which controls cpu or
- * system power for different power scenarios using different firmware.
- * This driver controls the cpu power in cpu idle power saving state.
- */
 […]
 static const unsigned int mcdi_binary[] = {
         0x1a10001f, 0x10006b04, 0x1890001f, 0x10006b6c, 0x1a40001f, 0x10006210,
@@ -357,12 +356,11 @@ static const unsigned int mcdi_binary[] = {
 
 ## spm\_suspend.c
 
+> System Power Manager (SPM) is a hardware module, which controls cpu or
+> system power for different power scenarios using different firmware.
+> This driver controls the system power in system suspend flow.
+
 ```
-/*
- * System Power Manager (SPM) is a hardware module, which controls cpu or
- * system power for different power scenarios using different firmware.
- * This driver controls the system power in system suspend flow.
- */
 […]
 /**********************************************************
  * PCM sequence for cpu suspend
