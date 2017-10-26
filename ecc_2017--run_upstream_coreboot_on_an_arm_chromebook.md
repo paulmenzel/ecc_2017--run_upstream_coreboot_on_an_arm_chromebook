@@ -38,7 +38,7 @@
 
 ## x86/Intel – Graphics driver in Linux
 
-BLOBs required by recent Intel graphics devices
+BLOBs required by recent Intel graphics devices:
 
 ```
 $ ls /lib/firmware/i915/
